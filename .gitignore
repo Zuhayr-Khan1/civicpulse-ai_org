@@ -16,4 +16,4 @@ notebooks/data/projections/
 
 data/raw/*
 data/processed/
-data/projections/
+data/projections/.env
