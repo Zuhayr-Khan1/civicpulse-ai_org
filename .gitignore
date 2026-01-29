@@ -1,3 +1,19 @@
 venv/
 .venv/
 .env
+# Jupyter notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Local data directories
+notebooks/data/raw/*
+notebooks/data/processed/
+notebooks/data/projections/
+
+# Geospatial files
+**/*.tif
+**/*.tiff
+
+data/raw/*
+data/processed/
+data/projections/
