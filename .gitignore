@@ -30,13 +30,13 @@ build/
 .DS_Store
 Thumbs.db
 
-# Project-specific data (large files tracked by Git LFS)
-data/raw/*.tif
-data/raw/*.tiff
-data/raw/*.zip
+# Data - ONLY ignore processed outputs (source .tif files tracked by LFS)
+# Raw data (.tif files) are tracked by Git LFS (see .gitattributes)
+# We only ignore processed outputs here
 data/processed/*.npy
 data/processed/*.h5
 data/projections/*.npy
+data/projections/*.h5
 
 # Windows junction
 notebooks/data
@@ -45,9 +45,9 @@ notebooks/data
 logs/
 *.log
 
-# Model checkpoints
-models/checkpoints/*.pt
-models/checkpoints/*.pth
+# Model checkpoints (tracked by Git LFS)
+# Only ignore temporary checkpoint files
+models/checkpoints/*.tmp
 
 # Temporary
 *.tmp

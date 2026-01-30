@@ -1,4 +1,4 @@
-# start_jupyter.ps1
+﻿# start_jupyter.ps1
 # Jupyter Launcher Script for Windows PowerShell
 
 # Get project directory
