@@ -1,19 +1,54 @@
+# Python
 venv/
 .venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Environment
 .env
-# Jupyter notebooks
-*.ipynb
+.env.local
+
+# Jupyter
 .ipynb_checkpoints/
+*.ipynb_checkpoints
 
-# Local data directories
-notebooks/data/raw/*
-notebooks/data/processed/
-notebooks/data/projections/
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Geospatial files
-**/*.tif
-**/*.tiff
+# OS
+.DS_Store
+Thumbs.db
 
-data/raw/*
-data/processed/
-data/projections/.env
+# Data - ONLY ignore processed outputs (source .tif files tracked by LFS)
+# Raw data (.tif files) are tracked by Git LFS (see .gitattributes)
+# We only ignore processed outputs here
+data/processed/*.npy
+data/processed/*.h5
+data/projections/*.npy
+data/projections/*.h5
+
+# Windows junction
+notebooks/data
+
+# Logs
+logs/
+*.log
+
+# Model checkpoints (tracked by Git LFS)
+# Only ignore temporary checkpoint files
+models/checkpoints/*.tmp
+
+# Temporary
+*.tmp
+*.bak
