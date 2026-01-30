@@ -1,0 +1,693 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "India",
+        "bounds": [
+          68.7,
+          8.4,
+          97.5,
+          35.0
+        ],
+        "level": "national",
+        "parent_id": null,
+        "area_km2": 9493372.449792,
+        "grid_cells_1km": 9493372
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              68.7,
+              8.4
+            ],
+            [
+              97.5,
+              8.4
+            ],
+            [
+              97.5,
+              35.0
+            ],
+            [
+              68.7,
+              35.0
+            ],
+            [
+              68.7,
+              8.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Telangana",
+        "bounds": [
+          78.0,
+          15.5,
+          81.9,
+          19.8
+        ],
+        "level": "state",
+        "parent_id": "India",
+        "area_km2": 207816.2280480003,
+        "grid_cells_1km": 207816
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.0,
+              15.5
+            ],
+            [
+              81.9,
+              15.5
+            ],
+            [
+              81.9,
+              19.8
+            ],
+            [
+              78.0,
+              19.8
+            ],
+            [
+              78.0,
+              15.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Andhra Pradesh",
+        "bounds": [
+          77.0,
+          12.6,
+          84.9,
+          18.3
+        ],
+        "level": "state",
+        "parent_id": "India",
+        "area_km2": 558018.1722720005,
+        "grid_cells_1km": 558018
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0,
+              12.6
+            ],
+            [
+              84.9,
+              12.6
+            ],
+            [
+              84.9,
+              18.3
+            ],
+            [
+              77.0,
+              18.3
+            ],
+            [
+              77.0,
+              12.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maharashtra",
+        "bounds": [
+          72.6,
+          16.5,
+          80.9,
+          23.3
+        ],
+        "level": "state",
+        "parent_id": "India",
+        "area_km2": 699412.5170560009,
+        "grid_cells_1km": 699412
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.6,
+              16.5
+            ],
+            [
+              80.9,
+              16.5
+            ],
+            [
+              80.9,
+              23.3
+            ],
+            [
+              72.6,
+              23.3
+            ],
+            [
+              72.6,
+              16.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Karnataka",
+        "bounds": [
+          74.0,
+          11.5,
+          78.6,
+          18.6
+        ],
+        "level": "state",
+        "parent_id": "India",
+        "area_km2": 404727.3707839995,
+        "grid_cells_1km": 404727
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.0,
+              11.5
+            ],
+            [
+              78.6,
+              11.5
+            ],
+            [
+              78.6,
+              18.6
+            ],
+            [
+              74.0,
+              18.6
+            ],
+            [
+              74.0,
+              11.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tamil Nadu",
+        "bounds": [
+          76.8,
+          8.0,
+          80.3,
+          13.6
+        ],
+        "level": "state",
+        "parent_id": "India",
+        "area_km2": 242885.99104,
+        "grid_cells_1km": 242885
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.8,
+              8.0
+            ],
+            [
+              80.3,
+              8.0
+            ],
+            [
+              80.3,
+              13.6
+            ],
+            [
+              76.8,
+              13.6
+            ],
+            [
+              76.8,
+              8.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Uttar Pradesh",
+        "bounds": [
+          77.0,
+          23.8,
+          84.8,
+          30.4
+        ],
+        "level": "state",
+        "parent_id": "India",
+        "area_km2": 637947.4907519995,
+        "grid_cells_1km": 637947
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0,
+              23.8
+            ],
+            [
+              84.8,
+              23.8
+            ],
+            [
+              84.8,
+              30.4
+            ],
+            [
+              77.0,
+              30.4
+            ],
+            [
+              77.0,
+              23.8
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Delhi",
+        "bounds": [
+          76.76,
+          28.41,
+          77.35,
+          28.88
+        ],
+        "level": "state",
+        "parent_id": "India",
+        "area_km2": 3436.341087519928,
+        "grid_cells_1km": 3436
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.76,
+              28.41
+            ],
+            [
+              77.35,
+              28.41
+            ],
+            [
+              77.35,
+              28.88
+            ],
+            [
+              76.76,
+              28.88
+            ],
+            [
+              76.76,
+              28.41
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punjab",
+        "bounds": [
+          73.7,
+          29.5,
+          76.9,
+          32.3
+        ],
+        "level": "state",
+        "parent_id": "India",
+        "area_km2": 111033.59590399997,
+        "grid_cells_1km": 111033
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7,
+              29.5
+            ],
+            [
+              76.9,
+              29.5
+            ],
+            [
+              76.9,
+              32.3
+            ],
+            [
+              73.7,
+              32.3
+            ],
+            [
+              73.7,
+              29.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gujarat",
+        "bounds": [
+          68.1,
+          20.1,
+          74.4,
+          24.5
+        ],
+        "level": "state",
+        "parent_id": "India",
+        "area_km2": 343510.18732800044,
+        "grid_cells_1km": 343510
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              68.1,
+              20.1
+            ],
+            [
+              74.4,
+              20.1
+            ],
+            [
+              74.4,
+              24.5
+            ],
+            [
+              68.1,
+              24.5
+            ],
+            [
+              68.1,
+              20.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Haryana",
+        "bounds": [
+          76.4,
+          27.0,
+          77.6,
+          30.6
+        ],
+        "level": "state",
+        "parent_id": "India",
+        "area_km2": 53534.055167999504,
+        "grid_cells_1km": 53534
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.4,
+              27.0
+            ],
+            [
+              77.6,
+              27.0
+            ],
+            [
+              77.6,
+              30.6
+            ],
+            [
+              76.4,
+              30.6
+            ],
+            [
+              76.4,
+              27.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rajasthan",
+        "bounds": [
+          68.8,
+          23.0,
+          78.6,
+          32.3
+        ],
+        "level": "state",
+        "parent_id": "India",
+        "area_km2": 1129419.8583359993,
+        "grid_cells_1km": 1129419
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              68.8,
+              23.0
+            ],
+            [
+              78.6,
+              23.0
+            ],
+            [
+              78.6,
+              32.3
+            ],
+            [
+              68.8,
+              32.3
+            ],
+            [
+              68.8,
+              23.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West Bengal",
+        "bounds": [
+          85.8,
+          21.6,
+          89.9,
+          27.2
+        ],
+        "level": "state",
+        "parent_id": "India",
+        "area_km2": 284523.58950400044,
+        "grid_cells_1km": 284523
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.8,
+              21.6
+            ],
+            [
+              89.9,
+              21.6
+            ],
+            [
+              89.9,
+              27.2
+            ],
+            [
+              85.8,
+              27.2
+            ],
+            [
+              85.8,
+              21.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kerala",
+        "bounds": [
+          74.9,
+          8.3,
+          77.4,
+          12.5
+        ],
+        "level": "state",
+        "parent_id": "India",
+        "area_km2": 130117.49519999995,
+        "grid_cells_1km": 130117
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.9,
+              8.3
+            ],
+            [
+              77.4,
+              8.3
+            ],
+            [
+              77.4,
+              12.5
+            ],
+            [
+              74.9,
+              12.5
+            ],
+            [
+              74.9,
+              8.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Madhya Pradesh",
+        "bounds": [
+          74.0,
+          17.8,
+          82.9,
+          26.9
+        ],
+        "level": "state",
+        "parent_id": "India",
+        "area_km2": 1003639.6129760003,
+        "grid_cells_1km": 1003639
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.0,
+              17.8
+            ],
+            [
+              82.9,
+              17.8
+            ],
+            [
+              82.9,
+              26.9
+            ],
+            [
+              74.0,
+              26.9
+            ],
+            [
+              74.0,
+              17.8
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bihar",
+        "bounds": [
+          82.2,
+          24.3,
+          88.3,
+          27.5
+        ],
+        "level": "state",
+        "parent_id": "India",
+        "area_km2": 241894.61964799967,
+        "grid_cells_1km": 241894
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.2,
+              24.3
+            ],
+            [
+              88.3,
+              24.3
+            ],
+            [
+              88.3,
+              27.5
+            ],
+            [
+              82.2,
+              27.5
+            ],
+            [
+              82.2,
+              24.3
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
