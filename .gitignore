@@ -1,19 +1,54 @@
+# Python
 venv/
 .venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Environment
 .env
-# Jupyter notebooks
-*.ipynb
+.env.local
+
+# Jupyter
 .ipynb_checkpoints/
+*.ipynb_checkpoints
 
-# Local data directories
-notebooks/data/raw/*
-notebooks/data/processed/
-notebooks/data/projections/
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Geospatial files
-**/*.tif
-**/*.tiff
+# OS
+.DS_Store
+Thumbs.db
 
-data/raw/*
-data/processed/
-data/projections/.env
+# Project-specific data (large files tracked by Git LFS)
+data/raw/*.tif
+data/raw/*.tiff
+data/raw/*.zip
+data/processed/*.npy
+data/processed/*.h5
+data/projections/*.npy
+
+# Windows junction
+notebooks/data
+
+# Logs
+logs/
+*.log
+
+# Model checkpoints
+models/checkpoints/*.pt
+models/checkpoints/*.pth
+
+# Temporary
+*.tmp
+*.bak
