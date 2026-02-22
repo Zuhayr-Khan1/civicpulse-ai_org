@@ -1,0 +1,11 @@
+numpy
+pandas
+h5py
+rasterio
+geopandas
+matplotlib
+scikit-learn
+tqdm
+jupyter
+ipykernel
+python-dotenv
